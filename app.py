@@ -3,6 +3,11 @@ import pickle
 import string
 from nltk.corpus import stopwords
 import nltk
+
+nltk.download('punkt')
+nltk.download('wordnet')
+nltk.download('omw-1.4')
+
 from nltk.stem.porter import PorterStemmer
 
 ps = PorterStemmer()
